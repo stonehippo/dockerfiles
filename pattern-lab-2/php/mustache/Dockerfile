@@ -35,6 +35,6 @@ RUN composer create-project pattern-lab/edition-mustache-standard \
 WORKDIR /opt/pattern-lab
 VOLUME /opt/pattern-lab/source
 
-CMD ["php", "core/console", "--server", "--host", "0.0.0.0", "--port", "80", "--with-watch"]
+CMD ["php", "core/console", "--server", "--host", "0.0.0.0", "--port", "8080", "--with-watch"]
 
-EXPOSE 80
+EXPOSE 8080
