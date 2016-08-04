@@ -16,7 +16,7 @@ This pulls that default tag, which is `latest`. It's also possible to get this w
 $ docker run -d -p 8080:8080 --name pattern-lab stonehippo/pattern-lab-2:php-mustache
 ```
 
-Containers created by this image include a copy of the startkit project, so you start looking at Pattern Lab right away. After the container starts, point your browser of choice at `http://localhost:8080`.
+Containers created by this image include a copy of the starterkit project, so you start looking at Pattern Lab right away. After the container starts, point your browser of choice at `http://localhost:8080`.
 
 You can also override the volume used to point to the Pattern Lab source, and point it to an external Pattern Lab instance, e.g. you local copy of a company pattern library.
 
