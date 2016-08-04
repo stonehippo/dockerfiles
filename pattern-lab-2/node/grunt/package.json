@@ -1,0 +1,7 @@
+{
+  "name": "pattern-lab-2-node-grunt-docker",
+  "version": "1.0.0",
+  "description": "A Docker image for Pattern Lab 2 Node, Grunt Edition",
+  "author": "George White <stonehippo@gmail.com>",
+  "license": "MIT"
+}
