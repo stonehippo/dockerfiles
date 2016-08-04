@@ -1,5 +1,5 @@
 FROM php:5.5-cli
-MAINTAINER George White <george@cantina.co>
+MAINTAINER George White <stonehippo@gmail.com>
 
 # create a non-priveleged user
 RUN groupadd -r pl2 \
