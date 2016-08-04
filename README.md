@@ -12,7 +12,7 @@ Various Dockerfiles to create images for things I find useful.
 There are several flavors of Pattern Lab available, with both Standard (PHP) and Node bases. Each edition of Pattern Lab is available as an image in the repo, with its own tag.
 
 - [Pattern Lab Standard, Mustache Edition](pattern-lab-2/php/mustache/README.md) (tags: `latest`, `php-mustache`)
-- Pattern Lab Standard, Twig Edition - not yet implemented
+- [Pattern Lab Standard, Twig Edition](pattern-lab-2/php/twig/README.md) (tags: `php-twig`)
 - Pattern Lab Standard, Drupal Edition - not yet implemented
 - Pattern Lab Standard, Thin Edition - not yet implemented
 - [Pattern Lab Node, Gulp Edition](pattern-lab-2/node/gulp/README.md) (tag: `node-gulp`)
