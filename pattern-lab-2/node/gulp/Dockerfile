@@ -28,4 +28,4 @@ CMD ["./node_modules/.bin/gulp", "patternlab:serve"]
 
 VOLUME /opt/pattern-lab/source
 
-EXPOSE 3000
+EXPOSE 3000 3001
