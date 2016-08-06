@@ -1,4 +1,4 @@
-FROM node:4-onbuild
+FROM node:6-onbuild
 MAINTAINER George White <stonehippo@gmail.com>
 
 # create a non-priveleged user
