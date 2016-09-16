@@ -1,4 +1,4 @@
-FROM tomcat:8.5
+FROM tomcat:8.5-alpine
 MAINTAINER George White <stonehippo@gmail.com>
 
 ENV CATALINA_OPTS -XX:PermSize=128m -XX:MaxPermSize=1024m -XX:+UseNUMA -XX:+UseConcMarkSweepGC
