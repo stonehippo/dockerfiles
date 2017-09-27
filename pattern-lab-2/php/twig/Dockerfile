@@ -28,7 +28,7 @@ RUN chmod o+w /opt
 USER pl2
 
 # Create a default Pattern Lab project
-RUN composer create-project pattern-lab/edition-mustache-standard \
+RUN composer create-project pattern-lab/edition-twig-standard \
     /opt/pattern-lab
 
 # Make Pattern Lab source files available for modification
